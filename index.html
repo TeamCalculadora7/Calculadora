@@ -5,93 +5,83 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
-  <title>Calculator</title>
+  <title>Inicio</title>
 </head>
 
 <body>
 
-  <!-- <div class="calculator">
-    <div class="display"></div>
-    <div class="result"></div>
 
-
-    <div class="">
-      <div class="topRow">
-        <button id="clear">AC</button>
-        <button value="divide" id="division" class="operator">/</button>
-      </div>
-
-      <div class="inputs">
-        <div class="digits">
-          <button value="7" class="digit">7</button>
-          <button value="8" class="digit">8</button>
-          <button value="9" class="digit">9</button>
-
-          <button value="4" class="digit">4</button>
-          <button value="5" class="digit">5</button>
-          <button value="6" class="digit">6</button>
-
-          <button value="1" class="digit">1</button>
-          <button value="2" class="digit">2</button>
-          <button value="3" class="digit">3</button>
-          <button value="0" class="digit">0</button>
-        </div>
-
-        <div class="operators">
-
-          <button value="multiply" id="multiplication" class="operator">*</button>
-          <button value="subtract" id="subtraction" class="operator">-</button>
-          <button value="add" id="addition" class="operator">+</button>
-          <button value="equals" id="equals" class="operator">=</button>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="container">
-      <form name="form">
-        <div class="display">
-          <input type="text" placeholder="0" name="displayResult" />
-        </div>
-        <div class="digits">
-          <div class="row limpiar">
-            <input class="digit funcion" type="button" name="del" value="C" onClick="deleteDigit(del.value)">
-            <!-- <input class="digit funcion" type="button" name="otro" value="-" onClick="calcNumbers(b8.value)"> -->
-          </div>
-          <div class="row">
-            <input class="digit" type="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
-            <input class="digit" type="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
-            <input class="digit" type="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
-            <input class="digit funcion" type="button" name="suma" value="+" onClick="calcNumbers(suma.value)">
-          </div>
-  
-          <div class="row">
-            <input class="digit" type="button" name="b4" value="4" onClick="calcNumbers(b4.value)">
-            <input class="digit" type="button" name="b5" value="5" onClick="calcNumbers(b5.value)">
-            <input class="digit" type="button" name="b6" value="6" onClick="calcNumbers(b6.value)">
-            <input class="digit funcion" type="button" name="resta" value="-" onClick="calcNumbers(resta.value)">
-          </div>
-  
-          <div class="row">
-            <input class="digit" type="button" name="b1" value="1" onClick="calcNumbers(b1.value)">
-            <input class="digit" type="button" name="b2" value="2" onClick="calcNumbers(b2.value)">
-            <input class="digit" type="button" name="b3" value="3" onClick="calcNumbers(b3.value)">
-            <input class="digit funcion" type="button" name="multiplicacion" value="*" onClick="calcNumbers(multiplicacion.value)">
-          </div>
-  
-          <div class="row">
-            <input class="digit" type="button" name="b0" value="0" onClick="calcNumbers(b0.value)">
-            <input class="digit" type="button" name="potb" value="." onClick="calcNumbers(potb.value)">
-            <input class="digit" type="button" name="division" value="/" onClick="calcNumbers(division.value)">
-            <input class="digit funcion" type="button" class="red" value="=" onClick="calcular(displayResult.value)">
-          </div>
-        </div>
-  
-      </form>
+  <div class="portada">
+    <div class="boton-calculadora">
+      <a type="button" class="btn btn-warning" href="calculadora.html">
+        Ir a calculadora
+      </a>
     </div>
+    <div class="title">
+      <h1>Calculadora</h1>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="images/porcentaje1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-title">
+        ¿QUÉ ES EL PORCENTAJE?
+      </p>
+      <p class="card-text">
+
+        El porcentaje es un símbolo matemático, que representa una cantidad dada como una fracción en 100 partes
+        iguales. También se le llama comúnmente tanto por ciento donde por ciento significa de cada cien unidades
+
+      </p>
+
+      <p class="card-title">
+        ¿CÓMO SE SACA EL PORCENTAJE?
+      </p>
+      <p class="card-text">
+        debe multiplicarse P por el total Y, y luego dividirlo por 100. Por ejemplo, si se quiere saber cuánto es el 30
+        %
+        de 120: 30 x 120 / 100 = 36. Es decir que el 30 % de 120 es 36.
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="images/matematicas.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-title">
+        ¿QUÉ ES LA REGLA DE TRES?
+      </p>
+      <p class="card-text">
+
+        Es una forma de resolver problemas de proporcionalidad entre tres valores conocidos y una incógnita. En ella se
+        establece una relación de linealidad, proporcionalidad, entre los valores involucrados. Regla de tres es la
+        operación de hallar el cuarto término de una proporción conociendo los otros tres.
+
+      </p>
+
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/portada.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-title">
+        ¿QUÉ ES LA MULTIPLICACIÓN CON PUNTO DECIMAL?
+      </p>
+      <p class="card-text">
+
+        Multiplicaciones de números decimales por números enteros
+
+        Para multiplicar un número decimal por un número entero, se multiplica como si el número decimal fuera un número
+        entero. En el resultado se separan tantas cifras decimales como tenía el número decimal.
 
 
+      </p>
 
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
