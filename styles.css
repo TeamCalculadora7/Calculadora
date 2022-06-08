@@ -61,6 +61,11 @@ body, html {
  .card-title{
    font-weight: bold;
  }
+
+ .image-center {
+   margin: 10px auto;
+  text-align: center;
+ }
  .display {
   width: 100%;
   height: 60px;
